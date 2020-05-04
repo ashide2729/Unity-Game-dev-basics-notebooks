@@ -1,0 +1,23 @@
+1. When we open Unity we see the default layout, it can be customized and saved by shifting the panels via drag and drop and then saving them in a custom layouts.
+
+2. The window has 6 main panels:
+
+	Hierarchy:
+	The Hierarchy shows all the objects currently present in our scene, which by default contains a "Camera object" & a "Light Source"
+	
+	Scene:
+	Scene View shows you objects and allows you to observe as you change the object and properties that too with different possible views
+	
+	Game:
+	Shows the preview of our game as viewed by the "Camera object"
+	
+	Inspector:
+	Shows information about the selected object and provides a UI to change it's properties	
+	
+	Project:
+	It contains assets for our project like scripts, audio file, 3D models etc. 
+
+	Console:
+	It helps print information from scripts for easy and bug fixes.
+
+We can create multiple scenes by saving the current scene and opening a new one. These scenes will be present in the project window and can be viewed anytime by just a click.
