@@ -1,0 +1,20 @@
+Every game has scenes, each scene is basically an individual level.
+
+The mesh is the graphic that is rendered otherwise the objects will be invisible.
+
+The Inspector window contains various components that are attached to the object. We can add and remove components to enable different behavior for the objects.
+
+The C# sharp script comes with a start method and an update method start is the entry point of the game and update is like a while loop for frames that keeps changing and behave according to the code inside update.
+
+Vectors:
+
+Two types of vectors are available to work with:
+Vector2 - 2D, Suppose a user pressed up and left arrow so the vector will be (-1,1) and suppose if we want to move it 3 places in that direction we multiply the vector by 3 but the actual magnitude will be higher(root((-3)^2+(3)^2)) so it is better to normalize the vector beforehand.
+Vector3 - 3D, takes in three parameters X, Y, Z for positioning
+
+For a basic game:Placing objects on the screen and then putting scripts inside them defining their position as we press keys is the most basic game example.
+
+Velocity, Displacement, Rotation, Vector, Geometry etc. are concepts that are needed for one to understand and develop games.
+
+Talking about the features available on unity is difficult but exploring them is worthwhile because of what you can achieve through unity just by using the features with less code. For example: the Physics section contains rigid body to achieve collision between objects.
+
